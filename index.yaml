@@ -3,7 +3,24 @@ entries:
   app-demo-k8s:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-01T21:26:11.953267105+07:00"
+    created: "2023-06-01T22:01:04.853987256+07:00"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.11.3
+    - name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.10.1
+    description: A Helm chart for Kubernetes
+    digest: 2ef7b989d43c1d7d9d710f45d46c959de833175dd02aeb30bf1a438ec62e7f14
+    name: app-demo-k8s
+    type: application
+    urls:
+    - app-demo-k8s-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-06-01T22:01:04.821285504+07:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -18,4 +35,4 @@ entries:
     urls:
     - app-demo-k8s-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-01T21:26:11.918407713+07:00"
+generated: "2023-06-01T22:01:04.781631751+07:00"
